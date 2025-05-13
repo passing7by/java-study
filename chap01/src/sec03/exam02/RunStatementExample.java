@@ -14,10 +14,14 @@ public class RunStatementExample {
  * Eclipse 단축키 정리 - 단축키 확인 Window > Preference > General > Keys 메뉴에서 확인 가능 단축키
  * 보기 Hint : Ctrl + Shift + L
  * 
- * - 코드 작성 및 편집 Ctrl + Space : 자동 완성 기능 Ctrl + Shift + O : 필요한 import 자동 추가 및 정리
- * Ctrl + Shift + F : 코드 자동 정렬 (포맷터 적용) Ctrl + Alt + ↑ / ↓: 현재 줄 위/아래로 복사 Alt +
- * ↑ / ↓ : 현재 줄 위/아래로 이동 Ctrl + D : 한줄 삭제 Alt + Shift + R : 변수/메서드명 변경 (참조 모두
- * 변경)
+ * - 코드 작성 및 편집
+ * Ctrl + Space : 자동 완성 기능
+ * Ctrl + Shift + O : 필요한 import 자동 추가 및 정리
+ * Ctrl + Shift + F : 코드 자동 정렬 (포맷터 적용)
+ * Ctrl + Alt + ↑ / ↓: 현재 줄 위/아래로 복사
+ * Alt + ↑ / ↓ : 현재 줄 위/아래로 이동
+ * Ctrl + D : 한줄 삭제
+ * Alt + Shift + R : 변수/메서드명 변경 (참조 모두 변경)
  * 
  * - 탐색 및 검색 F3 : 선택한 변수/메서드의 선언부로 이동 Ctrl + Shift + G : 해당 변수/메서드를 참조하는 모든 코드
  * 검색 Ctrl + Shift + R : 파일명으로 검색 후 파일 열기 Ctrl + H : 파일/문자열 전체 프로젝트 내 검색
