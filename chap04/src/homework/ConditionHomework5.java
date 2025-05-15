@@ -18,6 +18,7 @@ public class ConditionHomework5 {
 		
 		String msg = "";
 		
+		// me
 //		if (num > 5) msg = "목록에 있는 숫자만 입력해주세요.";
 //		if (num <= 0) msg = "양수만 입력해주세요.";
 //		if (num == 1) msg = "스쿼트 운동 시간입니다.";
@@ -28,19 +29,37 @@ public class ConditionHomework5 {
 		
 		
 		// 중첩 if~else문 사용
-		if (num > 5 || num <= 0) {
-			if (num > 5) msg = "목록에 있는 숫자만 입력해주세요.";
-			else msg = "양수만 입력해주세요.";
-		} else {			
-			if (num == 1) msg = "스쿼트 운동 시간입니다.";
-			if (num == 2) msg = "데드리프트 운동 시간입니다.";
-			if (num == 3) msg = "벤치 프레스 운동 시간입니다.";
-			if (num == 4) msg = "풀업 운동 시간입니다.";
-			if (num == 5) msg = "오늘도 수고하셨습니다.";
-		}
-		
-		System.out.println(msg);
+//		if (num > 5 || num <= 0) {
+//			if (num > 5) msg = "목록에 있는 숫자만 입력해주세요.";
+//			else msg = "양수만 입력해주세요.";
+//		} else {			
+//			if (num == 1) msg = "스쿼트 운동 시간입니다.";
+//			if (num == 2) msg = "데드리프트 운동 시간입니다.";
+//			if (num == 3) msg = "벤치 프레스 운동 시간입니다.";
+//			if (num == 4) msg = "풀업 운동 시간입니다.";
+//			if (num == 5) msg = "오늘도 수고하셨습니다.";
+//		}
+//		
+//		System.out.println(msg);
 
-		// TODO: 강사님 코드 pull 받아서 추가
+		// 강사님
+		if (num <= 0) {
+        	System.out.println("양수만 입력해주세요.");
+        	return;
+        }
+        
+        if (num == 1) {
+            System.out.println("스쿼트 운동 시간입니다.");
+        } else if (num == 2) {
+            System.out.println("데드리프트 운동 시간입니다.");
+        } else if (num == 3) {
+            System.out.println("벤치 프레스 운동 시간입니다.");
+        } else if (num == 4) {
+            System.out.println("풀업 운동 시간입니다.");
+        } else if (num == 5) {
+            System.out.println("오늘도 수고하셨습니다.");
+        } else {
+            System.out.println("목록에 있는 숫자만 입력해주세요.");
+        }
 	}
 }

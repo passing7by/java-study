@@ -44,8 +44,29 @@ public class ConditionHomework2 {
 			System.out.println("해당하는 계절이 없음");
 			return;
 		}
-		// TODO: 강사님 코드 pull 받아서 추가
-		
-		
+
+		if (month >= 3 && month <= 5) {
+        	season = "봄";
+        } else if (month >= 6 && month <= 8) {
+        	season = "여름";
+        	
+        	if (degree >= 35) {
+            	season += " 폭염 경보";
+            } else if (degree >= 33) {
+            	season += " 폭염 주의보";
+            }
+        } else if (month >= 9 && month <= 11) {
+        	season = "가을";
+        } else {
+        	season = "겨울";
+        	
+        	if (degree <= -15) {
+            	season += " 한파 경보";
+            } else if (degree <= -12) {
+            	season += " 한파 주의보";
+            }
+        }
+        
+        System.out.println(season);
 	}
 }
