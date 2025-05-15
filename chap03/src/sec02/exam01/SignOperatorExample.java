@@ -11,7 +11,7 @@ public class SignOperatorExample {
 		byte b = 100;
 //		byte result3 = -b; // Type mismatch: cannot convert from int to byte
 		// int 이하 정수의 산술(부호) 연산은 int로 연산
-		int result3 = -b; // Type mismatch: cannot convert from int to byte
+		int result3 = -b;
 		System.out.println(result3);
 	}
 }
