@@ -45,6 +45,8 @@ public class ArithmeticExample {
 		} else {
 			System.out.println("2자리 정수 입력");
 		}
+		
+		sc.close();
 	}
 
 }

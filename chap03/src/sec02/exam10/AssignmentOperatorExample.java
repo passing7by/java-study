@@ -76,7 +76,8 @@ public class AssignmentOperatorExample {
 		System.out.println("50원: " + coin50 + "개");
 		System.out.println("10원: " + coin10 + "개");
 		System.out.println("1원: " + coin1 + "개");
-
+		
+		sc.close();
 	}
 
 }
