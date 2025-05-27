@@ -22,6 +22,6 @@ public class Dish extends Menu {
 
 	@Override
 	public void cook() {
-		System.out.println(super.toString() + "재료는" + ingredients + "입니다.");
+		System.out.println(super.toString() + " 재료는 " + ingredients + "입니다.");
 	}
 }
