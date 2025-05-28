@@ -18,7 +18,7 @@ public class KeyExample {
 		// equals() 메소드를 재정의 했음에도 동등 객체로 판단하지 않는다.
 		// get()을 할 때, hashCode()를 먼저 비교하고 그 다음 equals()로 비교하기 때문
 		// hashCode()도 재정의 필요
-		// => 그래서 TODO 이 줄의 필기 추가
+		// => 그래서 HashMap의 키로는 String이 가장 많이 사용됨(String은 이미 hashCode()와 equals()가 재정의 되어있음)
 		// 만약 사용자 정의 객체를 키로 쓸 때는 hashCode()와 equals()를 반드시 오버라이드해야 버그 없이 작동
 		
 		// 참고
