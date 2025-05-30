@@ -164,7 +164,10 @@ public class BookMenu {
 		// 2. 메소드 호출 결과가 1이면 성공, 그 외 실패
 	    // 3. 성공시 "정렬에 성공하였습니다." 출력 후 전체 목록 조회
 	    // 4. 실패시 "정렬에 실패하였습니다." 출력
-		if (result == 1) System.out.println("정렬에 성공하였습니다.");
+		if (result == 1) {
+			System.out.println("정렬에 성공하였습니다.");
+			selectList();
+		}
 		else System.out.println("정렬에 실패하였습니다.");
 	}
 }
