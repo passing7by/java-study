@@ -123,13 +123,16 @@ public class LotteryMenu {
 			}
 		}
 	}
-	
-	// TODO 아래의 메소드 구현
-	
+		
 	// 5. 정렬된 당첨 대상 확인
 	public void sortedWinObject() {
 		// lc에서 받아온 Set 객체를 Iterator를 통해 출력
-		Iterator<Lottery>
+		System.out.println("===== 5. 정렬된 당첨 대상 확인 =====");
+		
+		Iterator<Lottery> it = lc.sortedWinObject().iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
 	}
 	
 	// 6. 당첨 대상 검색용 view 메소드
@@ -139,5 +142,15 @@ public class LotteryMenu {
 		// 3. 정보 담긴 객체를 lc의 searchWinner에 보내기
 		// 4. 받은 결과가 true면 "축하합니다. 당첨 목록에 존재합니다."
 		// 5. false면 "다음 기회에!" 출력 
+		System.out.println("===== 6. 당첨 대상 검색 =====");
+		System.out.println("검색할 대상의 이름과 핸드폰 번호를 입력하세요.");
+		System.out.print("이름 : ");
+		String name = sc.nextLine();
+		System.out.print("핸드폰 번호('-'빼고) : ");
+		String phone = sc.nextLine();
+		
+		if (lc.searchWinner(new Lottery(name, phone))) System.out.println("축하합니다. 당첨 목록에 존재합니다.");
+		else System.out.println("다음 기회에!");
+		
 	}
 }
